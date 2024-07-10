@@ -1,3 +1,28 @@
+
+# Solar Sense
+
+Solar Sense is a web-based Smart Solar System SaaS platform designed to automate and optimize operations in the solar energy domain.
+
+## Features
+
+1. **Rooftop Analysis**: Utilizes Google Maps API to provide insights on power generation potential and total cost of ownership based on the user's region of interest.
+
+2. **Solar Power Generation Forecasting**: Implements a short-term forecasting system using an LSTM-based predictive model. The model is trained on historical data and weather parameters such as solar irradiance and cloud cover.
+
+3. **Predictive Maintenance**: Analyzes defects and faults in PV panels to enable proactive maintenance. Specifically, it detects soiling and hotspot formations on PV panels using a VGG-UNET architecture.
+
+## Technology Stack
+
+- Frontend: React JS
+- Backend: Flask
+- Deep learning - Tensorflow, PyTorch
+- Machine learning - Pandas, Numpy, Scikit-Learn
+
+# Getting started with Flask App
+
+cd src/python/
+python app.py
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -6,7 +31,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
-### `npm start`
+npm start
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
