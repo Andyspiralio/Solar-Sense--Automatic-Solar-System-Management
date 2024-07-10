@@ -21,6 +21,7 @@ Solar Sense is a web-based Smart Solar System SaaS platform designed to automate
 # Getting started with Flask App
 
 cd src/python/
+
 python app.py
 
 # Getting Started with Create React App
